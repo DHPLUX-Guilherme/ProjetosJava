@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<form xmlns="http://www.intellij.com/uidesigner/form/" version="1" bind-to-class="Loja.Login">
+  <grid id="27dc6" binding="panel1" default-binding="true" layout-manager="GridLayoutManager" row-count="5" column-count="6" same-size-horizontally="false" same-size-vertically="false" hgap="-1" vgap="-1">
+    <margin top="25" left="25" bottom="25" right="25"/>
+    <constraints>
+      <xy x="20" y="20" width="500" height="442"/>
+    </constraints>
+    <properties/>
+    <border type="none"/>
+    <children>
+      <component id="dee4d" class="javax.swing.JLabel">
+        <constraints>
+          <grid row="1" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="0" fill="0" indent="0" use-parent-layout="false">
+            <preferred-size width="173" height="32"/>
+          </grid>
+        </constraints>
+        <properties>
+          <font size="24"/>
+          <text value="Username:"/>
+        </properties>
+      </component>
+      <component id="cfe7d" class="javax.swing.JLabel">
+        <constraints>
+          <grid row="2" column="0" row-span="2" col-span="1" vsize-policy="0" hsize-policy="0" anchor="0" fill="0" indent="0" use-parent-layout="false">
+            <preferred-size width="173" height="32"/>
+          </grid>
+        </constraints>
+        <properties>
+          <font size="24"/>
+          <text value="Password:"/>
+        </properties>
+      </component>
+      <component id="88372" class="javax.swing.JTextField" binding="textFieldUser">
+        <constraints>
+          <grid row="1" column="1" row-span="1" col-span="5" vsize-policy="0" hsize-policy="6" anchor="8" fill="1" indent="0" use-parent-layout="false">
+            <preferred-size width="170" height="35"/>
+          </grid>
+        </constraints>
+        <properties>
+          <font size="18"/>
+        </properties>
+      </component>
+      <component id="756fd" class="javax.swing.JLabel">
+        <constraints>
+          <grid row="0" column="0" row-span="1" col-span="6" vsize-policy="0" hsize-policy="0" anchor="0" fill="0" indent="1" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <font name="Comic Sans MS" size="28" style="1"/>
+          <icon value="Loja/Recursos/Imagem1.png"/>
+          <text value=""/>
+        </properties>
+      </component>
+      <component id="c2aba" class="javax.swing.JPasswordField" binding="passwordFieldPass">
+        <constraints>
+          <grid row="2" column="1" row-span="2" col-span="5" vsize-policy="0" hsize-policy="6" anchor="8" fill="1" indent="0" use-parent-layout="false">
+            <preferred-size width="170" height="35"/>
+          </grid>
+        </constraints>
+        <properties>
+          <font size="18"/>
+        </properties>
+      </component>
+      <component id="d1af8" class="javax.swing.JButton" binding="loginButton" default-binding="true">
+        <constraints>
+          <grid row="4" column="3" row-span="1" col-span="3" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false">
+            <preferred-size width="-1" height="40"/>
+          </grid>
+        </constraints>
+        <properties>
+          <font size="18"/>
+          <text value="Login"/>
+        </properties>
+      </component>
+      <component id="83c01" class="javax.swing.JButton" binding="novoEmpregadoButton" default-binding="true">
+        <constraints>
+          <grid row="4" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false">
+            <preferred-size width="173" height="40"/>
+          </grid>
+        </constraints>
+        <properties>
+          <font size="18"/>
+          <text value="Novo Empregado"/>
+        </properties>
+      </component>
+      <component id="42001" class="javax.swing.JButton" binding="cancelButton" default-binding="true">
+        <constraints>
+          <grid row="4" column="1" row-span="1" col-span="2" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false">
+            <preferred-size width="-1" height="40"/>
+          </grid>
+        </constraints>
+        <properties>
+          <font size="18"/>
+          <text value="Cancel"/>
+        </properties>
+      </component>
+    </children>
+  </grid>
+</form>
